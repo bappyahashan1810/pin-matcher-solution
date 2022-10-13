@@ -10,5 +10,6 @@ function getPin() {
 }
 
 function generatePin() {
-    getPin();
+    const pin = getPin();
+    console.log(pin);
 }
