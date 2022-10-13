@@ -32,4 +32,18 @@ document.getElementById('key-pad').addEventListener('click', function (event) {
 
 
 
-})
+});
+
+function verifyPin() {
+    console.log('clicked');
+    const pin = document.getElementById('display-pin').value;
+    const typedNumber = document.getElementById('typed-number').value;
+    if (pin == typedNumber) {
+        console.log('please enter the site');
+
+    }
+    else {
+        console.log('opps,try again');
+    }
+
+}
